@@ -3,39 +3,39 @@ blackjack
 
 Ruby code for Blackjack game
 
-== Running Guidance ==
-=== Linux ===
-# first, put the whole folder under your directory
-# second, cd blackjack
-# third, chmod 775 Blackjack.rb
-# fourth, ruby Blackjack.rb; (or ./Blackjack.rb)
-# last, follow the command guides on screen, and interact with the game
+# Running Guidance
+## Linux
+* first, put the whole folder under your directory
+* second, cd blackjack
+* third, chmod 775 Blackjack.rb
+* fourth, ruby Blackjack.rb; (or ./Blackjack.rb)
+* last, follow the command guides on screen, and interact with the game
 
-=== Windows ===
+## Windows
 If you have eclipse with Aptana studio 3 or Radris, 
 directly import the project and run
 
-=== playing hints ===
+## playing hints
 * Following the scripts printed on screen, and act.
 * information print
-# every time, before a player's round begin, and after his/her action, player's info will be printed
-# so Player can refer to their information for their actions
+1. every time, before a player's round begin, and after his/her action, player's info will be printed
+2. so Player can refer to their information for their actions
 
 * For split action:
-# it will let you play the first hand firstly, show as current hand
-# after finished the fist hand play, then you can play the second hand, show it as current hand
-# you always see you play the current hand in split, but they will play two hands in turn
+1. it will let you play the first hand firstly, show as current hand
+2. after finished the fist hand play, then you can play the second hand, show it as current hand
+2. you always see you play the current hand in split, but they will play two hands in turn
 
-== Game Rules ==
+# Game Rules
 refer to [http://www.pagat.com/banking/blackjack.html]
 for some choice may differ from this reference is detailed as below:
 * split:
-*# do not accept further more split after one split for any case
-*# when blackjack, and dealer blackjack, push
+1. do not accept further more split after one split for any case
+2. when blackjack, and dealer blackjack, push
 
 * win 
-*# regular win
-*# score equal to dealer, but has less cards
+1. regular win
+2. score equal to dealer, but has less cards
 
 * push
 take push as equal for all cases, no one wins is push
@@ -45,7 +45,7 @@ take push as equal for all cases, no one wins is push
 * leave
 player can choose to leave at the end of each round
 
-== Code Introduction ==
+# Code Introduction
 * Dealer class: 
 describe all the behaviors acted by dealer, such as deal card, shuffle cards, hit, and so on
 
@@ -60,5 +60,6 @@ like calculate the total value of their hand. Also they have some same status in
 
 * Blackjack.rb : executible entry to the blackjack game
 
-```Hope you enjoy the game``` 
+```Hope you enjoy the game```
+
 ```Thank you!```
