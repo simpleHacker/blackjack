@@ -18,24 +18,24 @@ directly import the project and run
 ## playing hints
 * Following the scripts printed on screen, and act.
 * information print
-1. every time, before a player's round begin, and after his/her action, player's info will be printed
-2. so Player can refer to their information for their actions
+ 1. every time, before a player's round begin, and after his/her action, player's info will be printed
+ 2. so Player can refer to their information for their actions
 
 * For split action:
-1. it will let you play the first hand firstly, show as current hand
-2. after finished the fist hand play, then you can play the second hand, show it as current hand
-2. you always see you play the current hand in split, but they will play two hands in turn
+ 1. it will let you play the first hand firstly, show as current hand
+ 2. after finished the fist hand play, then you can play the second hand, show it as current hand
+ 3. you always see you play the current hand in split, but they will play two hands in turn
 
 # Game Rules
 refer to [http://www.pagat.com/banking/blackjack.html]
 for some choice may differ from this reference is detailed as below:
 * split:
-1. do not accept further more split after one split for any case
-2. when blackjack, and dealer blackjack, push
+ 1. do not accept further more split after one split for any case
+ 2. when blackjack, and dealer blackjack, push
 
 * win 
-1. regular win
-2. score equal to dealer, but has less cards
+ 1. regular win
+ 2. score equal to dealer, but has less cards
 
 * push
 take push as equal for all cases, no one wins is push
